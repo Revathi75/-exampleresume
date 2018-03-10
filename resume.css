@@ -1,0 +1,68 @@
+.mainDiv{
+  background: pink;
+  display: flex;
+  justify-content: space-between;
+}
+.leftDiv{
+  margin-left: 5px;
+  position: fixed;
+  width: 25%;
+  /* height: auto; */
+background:#7FFFD4;
+text-align: center;
+}
+.rightDiv{
+  margin-left: 26%;
+  width: 70%;
+  /* height:auto; */
+  background: #7FFFD4;
+  padding:10px;
+  position: relative;
+}
+.image1{
+  width: 200px;
+  height: 200px;
+}
+p{
+  font-size: 20px;
+}
+@media all and (min-width:500px) and (max-width:768px){
+  body{
+    background: blue;
+  }
+.mainDiv{
+  width: 100%;
+ flex-wrap: wrap;
+}
+.leftDiv{
+  width: 100%;
+  position: relative;
+  display: flex;
+  /* flex-wrap: wrap; */
+  
+}
+.rightDiv{
+  width: 100%;
+  margin-left: 0%;
+}
+}
+@media (min-device-width:350px) and (max-device-width:500px) {
+  .mainDiv{
+    width: 100%;
+    background: red;
+    flex-wrap: wrap;
+
+  }
+  .leftDiv{
+    width:100%;
+    position: relative;
+    margin-left: 0%;
+    margin-bottom: 5px;
+  }
+  .rightDiv{
+    width: 100%;
+    /* margin-top: 27em; */
+    margin-left: 0%;
+  }
+
+}

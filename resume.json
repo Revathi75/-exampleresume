@@ -1,0 +1,28 @@
+{
+  "basics": {
+    "name": "Mahesh",
+    "label": "software developer",
+    "picture": "images/m7.jpg",
+    "email": "mahesh@gmail.com",
+    "phone": "7895437412",
+    "degree": "M.B.A",
+    "languages":"english,hindi,telugu",
+    "objective":"to enhance the skills and develop company"
+  },
+    "location": {
+      "address": "vizag",
+      "postalCode": "531116",
+      "city": "vizag",
+      "countryCode": "+91",
+      "region": "AP"
+    },
+
+  "work": [
+    {
+      "company": "Google",
+      "position": "C.E.O",
+      "startDate": "04-10-2007",
+      "endDate": "11-1-2017"
+    }
+  ]
+}
